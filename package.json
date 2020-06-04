@@ -1,0 +1,26 @@
+{
+  "name": "based-website",
+  "version": "0.0.1",
+  "dependencies": {
+    "@saulx/hub": "2.5.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "prettier": "@saulx/prettier-config",
+  "eslintConfig": {
+    "extends": "@saulx/eslint-config"
+  },
+  "devDependencies": {
+    "@saulx/prettier-config": "https://github.com/atelier-saulx/prettier-config",
+    "eslint": "^6.5.1",
+    "husky": "^3.0.8",
+    "lint-staged": "^9.4.2",
+    "prettier": "^1.18.2",
+    "@saulx/aristotle": "1.7.3",
+    "@saulx/eslint-config": "https://github.com/atelier-saulx/eslint-config"
+  },
+  "scripts": {
+    "watch": "aristotle src/index.js",
+    "build": "aristotle src/index.js dist"
+  }
+}
