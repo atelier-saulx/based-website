@@ -23,9 +23,10 @@ export default () => {
             </Header>
             <br></br>
             <Paragraph>
-              By packaging technology components for platforms that require real
-              time capabilities at a massive scale, we’ve built a platform that
-              makes it easy to build services for many different industries.
+              By packaging hard-to-build components for platforms that require
+              real time capabilities at a massive scale, we’ve built a platform
+              that makes it easy to build services for many different
+              industries.
             </Paragraph>
           </div>
           <div

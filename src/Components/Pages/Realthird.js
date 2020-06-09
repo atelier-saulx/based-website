@@ -28,7 +28,7 @@ export default () => {
           </Header>
           <div>
             <Header>
-              But that type of infrastructure is hard to build - especially at
+              But real time infrastructure is hard to build - especially at
               scale.
             </Header>
           </div>

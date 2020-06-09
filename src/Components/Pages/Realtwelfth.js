@@ -9,8 +9,7 @@ export default () => {
         style={{
           width: '100%',
           height: '100%',
-          border: '1px solid red',
-          backgroundColor: 'blue',
+          backgroundColor: 'black',
           display: 'flex',
           flexDirection: 'row',
           alignItems: 'center'
@@ -20,10 +19,10 @@ export default () => {
           style={{
             alignSelf: 'flex-start',
             position: 'absolute',
-            paddingTop: '20%'
+            paddingTop: '150'
           }}
         >
-          <Header>This is what you get</Header>
+          <Header>This is what you get:</Header>
         </div>
         <div
           style={{
@@ -37,9 +36,17 @@ export default () => {
             <Paragraph>Based handles all the hard bits:</Paragraph>
             <div>
               <br></br>
-              <Paragraph>‣ Scaling up and down</Paragraph>
-              <Paragraph>‣ Flexible data structures</Paragraph>
-              <Paragraph>‣ Real time connections</Paragraph>
+              <Paragraph>
+                <span style={{ color: '#6464F6' }}>‣</span> Scaling up and down
+              </Paragraph>
+              <Paragraph>
+                <span style={{ color: '#6464F6' }}>‣</span> Flexible data
+                structures
+              </Paragraph>
+              <Paragraph>
+                <span style={{ color: '#6464F6' }}>‣</span> Real time
+                connections
+              </Paragraph>
             </div>{' '}
           </div>
           <div
@@ -52,9 +59,16 @@ export default () => {
             <Paragraph>Anyone can work with data through Based's UI:</Paragraph>
             <div>
               <br></br>
-              <Paragraph>‣ Scaling up and down</Paragraph>
-              <Paragraph>‣ Flexible data structures</Paragraph>
-              <Paragraph>‣ Real time connections</Paragraph>
+              <Paragraph>
+                <span style={{ color: '#6464F6' }}>‣</span> Edit content
+              </Paragraph>
+              <Paragraph>
+                <span style={{ color: '#6464F6' }}>‣</span> Create new items
+              </Paragraph>
+              <Paragraph>
+                <span style={{ color: '#6464F6' }}>‣</span> Publish and
+                unpublish
+              </Paragraph>
             </div>{' '}
           </div>
         </div>

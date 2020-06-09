@@ -15,6 +15,8 @@ import Realninth from './Pages/Realninth'
 import Realtenth from './Pages/Realtenth'
 import Realeleventh from './Pages/Realeleventh'
 import Realtwelfth from './Pages/Realtwelfth'
+import Realthirteen from './Pages/Realthirteen'
+import Realfourteen from './Pages/Realfourteen'
 
 const hub = createClient({})
 
@@ -62,6 +64,14 @@ const pages = [
   {
     path: '/12',
     component: Realtwelfth
+  },
+  {
+    path: '/13',
+    component: Realthirteen
+  },
+  {
+    path: '/14',
+    component: Realfourteen
   },
   {
     path: '/',
