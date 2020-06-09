@@ -7,6 +7,7 @@ export default ({ children }) => {
         fontWeight: 'bold',
         paddingLeft: '15',
         fontSize: '20',
+        color: 'white',
         textAlign: 'left',
         fontFamily:
           'San Fransisco, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"'

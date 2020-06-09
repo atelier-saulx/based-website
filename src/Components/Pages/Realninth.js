@@ -9,8 +9,7 @@ export default () => {
         style={{
           width: '100%',
           height: '100%',
-          border: '1px solid red',
-          backgroundColor: 'blue',
+          backgroundColor: 'black',
           display: 'flex',
           flexDirection: 'row',
           alignItems: 'center'
@@ -35,13 +34,50 @@ export default () => {
               marginLeft: '20'
             }}
           >
-            <Paragraph>+ Real time data visualisation</Paragraph>
-            <Paragraph>+ Custom CRM</Paragraph>
-            <Paragraph>+ Online events platforms</Paragraph>
-            <Paragraph>+ IoT platforms</Paragraph>
-            <Paragraph>+ Real time geo APIs</Paragraph>
-            <Paragraph>+ Voting platforms</Paragraph>
-            <Paragraph>+ CMS platforms</Paragraph>
+            <Paragraph>
+              <span style={{ color: '#6464F6' }}>
+                <span style={{ color: '#6464F6' }}>
+                  <span style={{ color: '#6464F6' }}>+</span>
+                </span>
+              </span>{' '}
+              Real time data visualisation
+            </Paragraph>
+            <Paragraph>
+              <span style={{ color: '#6464F6' }}>
+                <span style={{ color: '#6464F6' }}>+</span>
+              </span>{' '}
+              Custom CRM
+            </Paragraph>
+            <Paragraph>
+              <span style={{ color: '#6464F6' }}>
+                <span style={{ color: '#6464F6' }}>+</span>
+              </span>{' '}
+              Online events platforms
+            </Paragraph>
+            <Paragraph>
+              <span style={{ color: '#6464F6' }}>
+                <span style={{ color: '#6464F6' }}>+</span>
+              </span>{' '}
+              IoT platforms
+            </Paragraph>
+            <Paragraph>
+              <span style={{ color: '#6464F6' }}>
+                <span style={{ color: '#6464F6' }}>+</span>
+              </span>{' '}
+              Real time geo APIs
+            </Paragraph>
+            <Paragraph>
+              <span style={{ color: '#6464F6' }}>
+                <span style={{ color: '#6464F6' }}>+</span>
+              </span>{' '}
+              Voting platforms
+            </Paragraph>
+            <Paragraph>
+              <span style={{ color: '#6464F6' }}>
+                <span style={{ color: '#6464F6' }}>+</span>
+              </span>{' '}
+              CMS platforms
+            </Paragraph>
           </div>
         </div>
       </div>

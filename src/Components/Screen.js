@@ -8,14 +8,15 @@ const Button = props => {
         display: 'flex',
         height: '100%',
         width: '10%',
+        justifyContent: 'space-between',
         alignItems: 'center'
       }}
     >
       <Link
         style={{
-          fontSize: 20,
-          backgroundColor: 'red',
-          padding: 10
+          fontSize: 30,
+          color: 'white'
+          // backgroundColor: 'red'
         }}
         {...props}
       />
@@ -49,9 +50,10 @@ export default ({ children, pages }) => {
       style={{
         width: '100%',
         height: '100%',
-        border: '1px solid red',
-        backgroundColor: 'blue',
-        display: 'flex'
+        // border: '1px solid red',
+        backgroundColor: 'black',
+        display: 'flex',
+        justifyContent: 'space-between'
       }}
     >
       <img
@@ -61,18 +63,17 @@ export default ({ children, pages }) => {
         }}
         src="public/4.png"
       ></img>
-      <Button to={prev}>{<img src="public/1.png"></img>}</Button>
+      <Button to={prev}>{'⍇'}</Button>
       <div
         style={{
           width: '100%',
           margin: 10,
-          padding: 10,
-          border: '1px solid yellow'
+          padding: 10
         }}
       >
         {children}
       </div>
-      <Button to={next}>{<img src="public/1.png"></img>}</Button>
+      <Button to={next}>{'⍈'}</Button>
     </div>
   )
 }

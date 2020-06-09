@@ -21,60 +21,46 @@ const hub = createClient({})
 const pages = [
   {
     path: '/2',
-    component: Second
-  },
-  {
-    path: '/3',
-    component: Third
-  },
-  {
-    path: '/4',
-    component: () => {
-      return <div>ewfpwiehfweoifh</div>
-    }
-  },
-  {
-    path: '/5',
     component: Realsecond
   },
   {
-    path: '/6',
+    path: '/3',
     component: Realthird
   },
   {
-    path: '/7',
+    path: '/4',
     component: Realfourth
   },
   {
-    path: '/8',
+    path: '/5',
     component: Realfifth
   },
   {
-    path: '/9',
+    path: '/6',
     component: Realsixth
   },
   {
-    path: '/10',
+    path: '/7',
     component: Realseventh
   },
   {
-    path: '/11',
+    path: '/8',
     component: Realeighth
   },
   {
-    path: '/12',
+    path: '/9',
     component: Realninth
   },
   {
-    path: '/13',
+    path: '/10',
     component: Realtenth
   },
   {
-    path: '/14',
+    path: '/11',
     component: Realeleventh
   },
   {
-    path: '/15',
+    path: '/12',
     component: Realtwelfth
   },
   {

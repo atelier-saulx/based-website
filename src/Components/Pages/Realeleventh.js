@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../Header'
 import Paragraph from '../Paragraph'
-import Docolor from '../Docolor'
+import Smalltext from '../Smalltext'
 
 export default () => {
   return (
@@ -10,12 +10,11 @@ export default () => {
         style={{
           width: '100%',
           height: '100%',
-          border: '1px solid red',
-          backgroundColor: 'blue'
-          //   display: 'flex'
+          backgroundColor: 'black',
+          display: 'flex',
           //   justifyContent: 'center',
-          //   flexDirection: 'column',
-          //   alignContent: 'flex-start',
+          flexDirection: 'column',
+          justifyContent: 'center'
           //   alignItems: 'flex-start'
         }}
       >
@@ -48,28 +47,15 @@ export default () => {
           }}
         >
           <div
-            style={
-              {
-                //   alignItems: 'left'
-              }
-            }
+            style={{
+              width: '25%'
+            }}
           >
-            <div
-              style={{
-                borderRadius: '20',
-                width: '20',
-                height: '20',
-                backgroundColor: '#6464F6',
-                justifyContent: 'center',
-                alignItems: 'center',
-                textAlign: 'center'
-              }}
-              onClick={() => alert('Yaay!')}
-            >
-              1
-            </div>
             <div>
-              <Paragraph>Create a schema that fits the required data</Paragraph>
+              <Paragraph>
+                <span style={{ color: '#6464F6' }}>1.</span> Create a schema
+                that fits the required data
+              </Paragraph>
             </div>
             <br></br>
             {/* <div
@@ -84,34 +70,22 @@ export default () => {
             >
               <div>Create data types with corresponding fields:</div>
               <br></br>
-              <div>‣ Programs</div>
-              <div>‣ Votes</div>
-              <div>‣ Content</div>
-              <div>‣ Users</div>
+              <div><span style={{ color: '#6464F6' }}>‣</span> Programs</div>
+              <div><span style={{ color: '#6464F6' }}>‣</span> Votes</div>
+              <div><span style={{ color: '#6464F6' }}>‣</span> Content</div>
+              <div><span style={{ color: '#6464F6' }}>‣</span> Users</div>
             </div> */}
           </div>
           <div
             style={{
-              alignItems: 'left'
+              alignItems: 'left',
+              width: '25%'
             }}
           >
-            <div
-              style={{
-                borderRadius: '20',
-                width: '20',
-                height: '20',
-                backgroundColor: '#6464F6',
-                justifyContent: 'center',
-                alignItems: 'center',
-                textAlign: 'center'
-              }}
-              onClick={() => alert('Yaay!')}
-            >
-              2
-            </div>
             <div>
               <Paragraph>
-                Edit the data hierarchy in code or in the GUI
+                <span style={{ color: '#6464F6' }}>2.</span> Edit the data
+                hierarchy in code or in the GUI
               </Paragraph>
             </div>
             {/* <div
@@ -129,76 +103,64 @@ export default () => {
                 Create content items and drag and drop them in 'folders':
               </div>
               <br></br>
-              <div>‣ Love Island</div>
+              <div><span style={{ color: '#6464F6' }}>‣</span> Love Island</div>
               <div
                 style={{
                   paddingLeft: '15'
                 }}
               >
-                ‣ Who should go?
+                <span style={{ color: '#6464F6' }}>‣</span> Who should go?
               </div>
               <div
                 style={{
                   paddingLeft: '30'
                 }}
               >
-                ‣ Bart
+                <span style={{ color: '#6464F6' }}>‣</span> Bart
               </div>
               <div
                 style={{
                   paddingLeft: '30'
                 }}
               >
-                ‣ Eric
+                <span style={{ color: '#6464F6' }}>‣</span> Eric
               </div>
               <div
                 style={{
                   paddingLeft: '30'
                 }}
               >
-                ‣ Karen
+                <span style={{ color: '#6464F6' }}>‣</span> Karen
               </div>
               <br></br>
               <br></br>
-              <div>‣ Users</div>
+              <div><span style={{ color: '#6464F6' }}>‣</span> Users</div>
               <div
                 style={{
                   paddingLeft: '15'
                 }}
               >
-                ‣ Becky
+                <span style={{ color: '#6464F6' }}>‣</span> Becky
               </div>
               <div
                 style={{
                   paddingLeft: '30'
                 }}
               >
-                ‣ Votes for Karen
+                <span style={{ color: '#6464F6' }}>‣</span> Votes for Karen
               </div>
             </div> */}
           </div>
           <div
             style={{
-              alignItems: 'left'
+              alignItems: 'left',
+              width: '25%'
             }}
           >
-            <div
-              style={{
-                borderRadius: '20',
-                width: '20',
-                height: '20',
-                backgroundColor: '#6464F6',
-                justifyContent: 'center',
-                alignItems: 'center',
-                textAlign: 'center'
-              }}
-              onClick={() => alert('Yaay!')}
-            >
-              3
-            </div>
-            <div>
+            <div style={{}}>
               <Paragraph>
-                Create a frontend that reads and writes the data{' '}
+                <span style={{ color: '#6464F6' }}>3.</span> Create a frontend
+                that reads and writes the data
               </Paragraph>
             </div>
             <br></br>
@@ -216,37 +178,23 @@ export default () => {
                 Using any frontend framework, access the real time updated data:
               </div>
               <br></br>
-              <div>‣ Voting UI</div>
+              <div><span style={{ color: '#6464F6' }}>‣</span> Voting UI</div>
               <br></br>
-              <div>‣ Results dashboard</div>
+              <div><span style={{ color: '#6464F6' }}>‣</span> Results dashboard</div>
             </div> */}
           </div>
+
           <div
             style={{
-              alignItems: 'left'
-            }}
-          ></div>
-          <div
-            style={{
-              alignItems: 'left'
+              alignItems: 'left',
+              width: '25%'
             }}
           >
-            <div
-              style={{
-                borderRadius: '20',
-                width: '20',
-                height: '20',
-                backgroundColor: '#6464F6',
-                justifyContent: 'center',
-                alignItems: 'center',
-                textAlign: 'center'
-              }}
-              onClick={() => alert('Yaay!')}
-            >
-              4
-            </div>
             <div>
-              <Paragraph>Profit </Paragraph>
+              <Paragraph>
+                <span style={{ color: '#6464F6' }}>(</span> Profit{' '}
+                <span style={{ color: '#6464F6' }}>)</span>{' '}
+              </Paragraph>
             </div>
 
             {/* <div
@@ -261,23 +209,28 @@ export default () => {
             >
               <div>Add monetization:</div>
               <br></br>
-              <div>‣ Ads</div>
-              <div>‣ Sponsors</div>
-              <div>‣ Subscribers</div>
-              <div>‣ PPV</div>
+              <div><span style={{ color: '#6464F6' }}>‣</span> Ads</div>
+              <div><span style={{ color: '#6464F6' }}>‣</span> Sponsors</div>
+              <div><span style={{ color: '#6464F6' }}>‣</span> Subscribers</div>
+              <div><span style={{ color: '#6464F6' }}>‣</span> PPV</div>
             </div> */}
           </div>
         </div>
         <div
           style={{
-            display: 'flex'
+            display: 'flex',
+            flexDirection: 'row',
+            alignContent: 'center'
           }}
         >
           <div
             style={{
+              width: '25%',
+
               fontWeight: 'bold',
               paddingLeft: '15',
               fontSize: '15',
+              color: 'white',
               textAlign: 'left',
               fontFamily:
                 'San Fransisco, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"'
@@ -285,77 +238,97 @@ export default () => {
           >
             <div>Create data types with corresponding fields:</div>
             <br></br>
-            <div>‣ Programs</div>
-            <div>‣ Votes</div>
-            <div>‣ Content</div>
-            <div>‣ Users</div>
+            <div>
+              <span style={{ color: '#6464F6' }}>
+                <span style={{ color: '#6464F6' }}>‣</span>
+              </span>{' '}
+              Programs
+            </div>
+            <div>
+              <span style={{ color: '#6464F6' }}>‣</span> Votes
+            </div>
+            <div>
+              <span style={{ color: '#6464F6' }}>‣</span> Content
+            </div>
+            <div>
+              <span style={{ color: '#6464F6' }}>‣</span> Users
+            </div>
           </div>
           <div
             style={{
+              width: '25%',
+
               fontWeight: 'bold',
               paddingLeft: '15',
               fontSize: '15',
+              color: 'white',
               textAlign: 'left',
               fontFamily:
                 'San Fransisco, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"'
             }}
           >
-            <br></br>
             <div>Create content items and drag and drop them in 'folders':</div>
             <br></br>
-            <div>‣ Love Island</div>
+            <div>
+              <span style={{ color: '#6464F6' }}>‣</span> Love Island
+            </div>
             <div
               style={{
                 paddingLeft: '15'
               }}
             >
-              ‣ Who should go?
+              <span style={{ color: '#6464F6' }}>‣</span> Who should go?
             </div>
             <div
               style={{
                 paddingLeft: '30'
               }}
             >
-              ‣ Bart
+              <span style={{ color: '#6464F6' }}>‣</span> Bart
             </div>
             <div
               style={{
                 paddingLeft: '30'
               }}
             >
-              ‣ Eric
+              <span style={{ color: '#6464F6' }}>‣</span> Eric
             </div>
             <div
               style={{
                 paddingLeft: '30'
               }}
             >
-              ‣ Karen
+              <span style={{ color: '#6464F6' }}>‣</span> Karen
             </div>
             <br></br>
             <br></br>
-            <div>‣ Users</div>
+            <div>
+              <span style={{ color: '#6464F6' }}>‣</span> Users
+            </div>
             <div
               style={{
                 paddingLeft: '15'
               }}
             >
-              ‣ Becky
+              <span style={{ color: '#6464F6' }}>‣</span> Becky
             </div>
             <div
               style={{
                 paddingLeft: '30'
               }}
             >
-              ‣ Votes for Karen
+              <span style={{ color: '#6464F6' }}>‣</span> Votes for Karen
             </div>
           </div>
           <div
             style={{
+              width: '25%',
+
               fontWeight: 'bold',
               paddingLeft: '15',
               fontSize: '15',
               textAlign: 'left',
+              color: 'white',
               fontFamily:
                 'San Fransisco, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"'
             }}
@@ -364,15 +337,21 @@ export default () => {
               Using any frontend framework, access the real time updated data:
             </div>
             <br></br>
-            <div>‣ Voting UI</div>
+            <div>
+              <span style={{ color: '#6464F6' }}>‣</span> Voting UI
+            </div>
             <br></br>
-            <div>‣ Results dashboard</div>
+            <div>
+              <span style={{ color: '#6464F6' }}>‣</span> Results dashboard
+            </div>
           </div>
           <div
             style={{
+              width: '25%',
               fontWeight: 'bold',
               paddingLeft: '15',
               fontSize: '15',
+              color: 'white',
               textAlign: 'left',
               fontFamily:
                 'San Fransisco, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"'
@@ -380,10 +359,18 @@ export default () => {
           >
             <div>Add monetization:</div>
             <br></br>
-            <div>‣ Ads</div>
-            <div>‣ Sponsors</div>
-            <div>‣ Subscribers</div>
-            <div>‣ PPV</div>
+            <div>
+              <span style={{ color: '#6464F6' }}>‣</span> Ads
+            </div>
+            <div>
+              <span style={{ color: '#6464F6' }}>‣</span> Sponsors
+            </div>
+            <div>
+              <span style={{ color: '#6464F6' }}>‣</span> Subscribers
+            </div>
+            <div>
+              <span style={{ color: '#6464F6' }}>‣</span> PPV
+            </div>
           </div>
         </div>
       </div>

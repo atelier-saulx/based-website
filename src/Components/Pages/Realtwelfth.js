@@ -20,7 +20,7 @@ export default () => {
           style={{
             alignSelf: 'flex-start',
             position: 'absolute',
-            paddingTop: '50'
+            paddingTop: '20%'
           }}
         >
           <Header>This is what you get</Header>
