@@ -7,6 +7,7 @@ const Button = props => {
       style={{
         display: 'flex',
         height: '100%',
+        width: '10%',
         alignItems: 'center'
       }}
     >
@@ -49,21 +50,29 @@ export default ({ children, pages }) => {
         width: '100%',
         height: '100%',
         border: '1px solid red',
+        backgroundColor: 'blue',
         display: 'flex'
       }}
     >
-      <Button to={prev}>{'<'}</Button>
+      <img
+        style={{
+          position: 'absolute',
+          padding: '10'
+        }}
+        src="public/4.png"
+      ></img>
+      <Button to={prev}>{<img src="public/1.png"></img>}</Button>
       <div
         style={{
           width: '100%',
           margin: 10,
           padding: 10,
-          border: '10px solid yellow'
+          border: '1px solid yellow'
         }}
       >
         {children}
       </div>
-      <Button to={next}>{'>'}</Button>
+      <Button to={next}>{<img src="public/1.png"></img>}</Button>
     </div>
   )
 }

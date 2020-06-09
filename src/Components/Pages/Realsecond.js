@@ -1,6 +1,5 @@
 import React from 'react'
 import Header from '../Header'
-import Paragraph from '../Paragraph'
 
 export default () => {
   return (
@@ -16,27 +15,21 @@ export default () => {
       >
         <div
           style={{
-            padding: '50',
             alignSelf: 'center'
           }}
         >
           <div
             style={{
               display: 'flex',
-              width: '15%'
+              textSizeAdjust: '20',
+              width: '100%'
             }}
           >
-            <img src="public/2.png"></img>
-            <Header>based</Header>
-          </div>
-          <div
-            style={{
-              fontFamily: 'San Francisco',
-              fontSize: '20',
-              paddingTop: '10'
-            }}
-          >
-            <Paragraph>Build real time applications, faster</Paragraph>
+            <Header>
+              Nobody wants to wait - <br></br> whether{' '}
+              <span style={{ color: '#6464F6' }}>end-consumer</span> or{' '}
+              <span style={{ color: '#6464F6' }}>data producer</span>.
+            </Header>
           </div>
         </div>
       </div>
