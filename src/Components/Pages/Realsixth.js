@@ -25,7 +25,7 @@ export default () => {
             position: 'absolute'
           }}
         >
-          <Biggerparagraph>even though most applications...</Biggerparagraph>
+          <Paragraph>even though most applications...</Paragraph>
         </div>
         <div
           style={{

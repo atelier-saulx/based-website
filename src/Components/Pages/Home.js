@@ -25,6 +25,12 @@ export default () => {
               width: '15%'
             }}
           >
+            {/* <img
+              style={{
+                width: '100%'
+              }}
+              src="public/4.png"
+            ></img> */}
             <img src="public/2.png"></img>
             <Header>based</Header>
           </div>

@@ -15,7 +15,7 @@ const Button = props => {
       <Link
         style={{
           fontSize: 30,
-          color: 'white'
+          color: 'black'
           // backgroundColor: 'red'
         }}
         {...props}
@@ -56,13 +56,13 @@ export default ({ children, pages }) => {
         justifyContent: 'space-between'
       }}
     >
-      <img
+      {/* <img
         style={{
           position: 'absolute',
           padding: '10'
         }}
         src="public/4.png"
-      ></img>
+      ></img> */}
       <Button to={prev}>{'⍇'}</Button>
       <div
         style={{
@@ -73,7 +73,13 @@ export default ({ children, pages }) => {
       >
         {children}
       </div>
-      <Button to={next}>{'⍈'}</Button>
+      <div
+        style={{
+          alignItems: 'flex-end'
+        }}
+      >
+        <Button to={next}>{'⍈'}</Button>
+      </div>
     </div>
   )
 }

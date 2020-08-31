@@ -25,9 +25,7 @@ export default () => {
             position: 'absolute'
           }}
         >
-          <Biggerparagraph>
-            Services have to be hacked together...
-          </Biggerparagraph>
+          <Paragraph>Services have to be hacked together...</Paragraph>
         </div>
         <div
           style={{

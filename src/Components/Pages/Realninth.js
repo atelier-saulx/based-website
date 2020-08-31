@@ -18,8 +18,9 @@ export default () => {
         <div style={{}}>
           <div>
             <Header>
-              Based is a <span style={{ color: '#6464F6' }}>platform</span> for{' '}
-              <span style={{ color: '#6464F6' }}>platforms</span>.
+              Based is a{' '}
+              <span style={{ color: '#6464F6' }}>real time platform</span> for{' '}
+              <span style={{ color: '#6464F6' }}>real time platforms</span>.
             </Header>
             <br></br>
             <Paragraph>

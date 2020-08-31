@@ -4,75 +4,80 @@ import Home from './Pages/Home'
 import Second from './Pages/Second'
 import Third from './Pages/Third'
 import Screen from './Screen'
-import Realsecond from './Pages/Realsecond'
-import Realthird from './Pages/Realthird'
-import Realfourth from './Pages/Realfourth'
-import Realfifth from './Pages/Realfifth'
-import Realsixth from './Pages/Realsixth'
-import Realseventh from './Pages/Realseventh'
-import Realeighth from './Pages/Realeighth'
-import Realninth from './Pages/Realninth'
-import Realtenth from './Pages/Realtenth'
-import Realeleventh from './Pages/Realeleventh'
-import Realtwelfth from './Pages/Realtwelfth'
-import Realthirteen from './Pages/Realthirteen'
-import Realfourteen from './Pages/Realfourteen'
+// import Realsecond from './Pages/Realsecond'
+// import Realthird from './Pages/Realthird'
+// import Realfourth from './Pages/Realfourth'
+// import Realfifth from './Pages/Realfifth'
+// import Realsixth from './Pages/Realsixth'
+// import Realseventh from './Pages/Realseventh'
+// import Realeighth from './Pages/Realeighth'
+// import Realninth from './Pages/Realninth'
+// import Realtenth from './Pages/Realtenth'
+// import Realeleventh from './Pages/Realeleventh'
+// import Realtwelfth from './Pages/Realtwelfth'
+// import Realthirteen from './Pages/Realthirteen'
+// import Realfourteen from './Pages/Realfourteen'
+// import Realfifteenth from './Pages/Realfifteenth'
 
 const hub = createClient({})
 
 const pages = [
-  {
-    path: '/2',
-    component: Realsecond
-  },
-  {
-    path: '/3',
-    component: Realthird
-  },
-  {
-    path: '/4',
-    component: Realfourth
-  },
-  {
-    path: '/5',
-    component: Realfifth
-  },
-  {
-    path: '/6',
-    component: Realsixth
-  },
-  {
-    path: '/7',
-    component: Realseventh
-  },
-  {
-    path: '/8',
-    component: Realeighth
-  },
-  {
-    path: '/9',
-    component: Realninth
-  },
-  {
-    path: '/10',
-    component: Realtenth
-  },
-  {
-    path: '/11',
-    component: Realeleventh
-  },
-  {
-    path: '/12',
-    component: Realtwelfth
-  },
-  {
-    path: '/13',
-    component: Realthirteen
-  },
-  {
-    path: '/14',
-    component: Realfourteen
-  },
+  // {
+  //   path: '/2',
+  //   component: Realsecond
+  // },
+  // {
+  //   path: '/3',
+  //   component: Realthird
+  // },
+  // {
+  //   path: '/4',
+  //   component: Realfourth
+  // },
+  // {
+  //   path: '/5',
+  //   component: Realfifth
+  // },
+  // {
+  //   path: '/6',
+  //   component: Realsixth
+  // },
+  // {
+  //   path: '/7',
+  //   component: Realseventh
+  // },
+  // {
+  //   path: '/8',
+  //   component: Realeighth
+  // },
+  // {
+  //   path: '/9',
+  //   component: Realninth
+  // },
+  // {
+  //   path: '/10',
+  //   component: Realtenth
+  // },
+  // {
+  //   path: '/11',
+  //   component: Realeleventh
+  // },
+  // {
+  //   path: '/12',
+  //   component: Realtwelfth
+  // },
+  // {
+  //   path: '/13',
+  //   component: Realthirteen
+  // },
+  // {
+  //   path: '/14',
+  //   component: Realfourteen
+  // },
+  // {
+  //   path: '/15',
+  //   component: Realfifteenth
+  // },
   {
     path: '/',
     component: Home

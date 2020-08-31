@@ -25,7 +25,7 @@ export default () => {
             position: 'absolute'
           }}
         >
-          <Biggerparagraph>to add capabilities and features...</Biggerparagraph>
+          <Paragraph>to add capabilities and features...</Paragraph>
         </div>
         <div
           style={{
